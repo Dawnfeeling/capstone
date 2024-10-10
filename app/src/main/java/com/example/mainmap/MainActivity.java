@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else{
             presstime = temptime;
-            Toast.makeText(getApplicationContext(), "한번더 누리시면 앱이 종료됩니다", Toast.LENGTH_LONG).show();
+            Toast.makeText(getApplicationContext(), "한번더 누르시면 앱이 종료됩니다", Toast.LENGTH_LONG).show();
         }
     }
 }
