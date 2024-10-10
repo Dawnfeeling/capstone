@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mainmap">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MainMap"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity android:name=".my_review_drink" />
+        <activity android:name=".stamp_page" />
+        <activity android:name=".Reviewpage" />
+        <activity android:name=".ReviewActivity" />
+        <activity android:name=".main_list" />
+        <activity android:name=".page"
+            android:parentActivityName=".main_list"/>
+        <activity
+            android:name=".intro"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".map_gyenggi" />
+        <activity android:name=".map_gangwon" />
+        <activity android:name=".map_chungbuk" />
+        <activity android:name=".map_chungnam" />
+        <activity android:name=".map_gyeongbuk" />
+        <activity android:name=".map_gyeongnam" />
+        <activity android:name=".map_jeonbuk" />
+        <activity android:name=".map_jeonnam" />
+        <activity android:name=".login_page" />
+        <activity android:name=".user_add_page" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".TextRecognition" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.mainmap"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"></meta-data>
+        </provider>
+    </application>
+
+</manifest>

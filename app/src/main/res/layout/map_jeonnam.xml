@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/jeonnam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/map_jeonnam" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wolin"
+            android:text="전라남도"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/jeonnam" />
+
+        <ImageView
+            android:id="@+id/jnmarker1"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker2"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35000002"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker3"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.225"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.63"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker4"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.73"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker5"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.795"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker6"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.455"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.448"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker7"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.919"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.53"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jnmarker8"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.391"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.599"
+            app:srcCompat="@drawable/marker" />
+
+        <Button
+            android:id="@+id/jnbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="76dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="담양 죽력고"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jnmarker1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/jnbutton1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="추성주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jnmarker1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnbutton1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/jnbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="68dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="편백숲 산소막걸리 순수령"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jnmarker2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/jnbutton3"
+            android:layout_width="136dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="진도 백주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker3" />
+
+        <Button
+            android:id="@+id/jnbutton4"
+            android:layout_width="142dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="244dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="시향가 탁주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker4" />
+
+        <Button
+            android:id="@+id/jnbutton5"
+            android:layout_width="127dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="244dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="낙안읍성"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker5" />
+
+        <Button
+            android:id="@+id/jnbutton6"
+            android:layout_width="152dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="248dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="나주배 약주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker6" />
+
+        <Button
+            android:id="@+id/jnbutton7"
+            android:layout_width="172dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="240dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="금오도 방풍막걸리"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker7" />
+
+        <Button
+            android:id="@+id/jnbutton8"
+            android:layout_width="162dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="192dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="해창 생막걸리"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jnmarker8" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="411dp"
+            android:layout_height="52dp"
+            android:background="#52527A"
+            android:fontFamily="@font/wolin"
+            android:gravity="center"
+            android:text="우리술 알리미"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/all"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/all"
+            android:layout_width="wrap_content"
+            android:layout_height="226dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10"
+            app:srcCompat="@drawable/category_img1" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="411dp"
+            android:layout_height="226dp"
+            android:fontFamily="@font/kanibuk"
+            android:gravity="center"
+            android:text="전체보기"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <ImageView
+            android:id="@+id/tacju"
+            android:layout_width="205dp"
+            android:layout_height="226dp"
+            app:layout_constraintBottom_toTopOf="@+id/guasilju"
+            app:layout_constraintEnd_toStartOf="@+id/cheongju"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all"
+            app:srcCompat="@drawable/category_img2" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="205dp"
+            android:layout_height="226dp"
+            android:fontFamily="@font/kanibuk"
+            android:gravity="center"
+            android:text="탁주"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toStartOf="@+id/cheongju"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/all"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/cheongju"
+            android:layout_width="206dp"
+            android:layout_height="226dp"
+            app:layout_constraintBottom_toTopOf="@+id/gitaju"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/tacju"
+            app:layout_constraintTop_toBottomOf="@+id/all"
+            app:srcCompat="@drawable/category_img3" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="206dp"
+            android:layout_height="226dp"
+            android:fontFamily="@font/kanibuk"
+            android:gravity="center"
+            android:text="청주/약주"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/gitaju"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/tacju"
+            app:layout_constraintTop_toBottomOf="@+id/all" />
+
+        <ImageView
+            android:id="@+id/guasilju"
+            android:layout_width="205dp"
+            android:layout_height="226dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/gitaju"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/category_img4" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="205dp"
+            android:layout_height="226dp"
+            android:fontFamily="@font/kanibuk"
+            android:gravity="center"
+            android:text="과실주"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/gitaju"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tacju" />
+
+        <ImageView
+            android:id="@+id/gitaju"
+            android:layout_width="206dp"
+            android:layout_height="226dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/guasilju"
+            app:layout_constraintTop_toBottomOf="@+id/cheongju"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/category_img5" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="206dp"
+            android:layout_height="226dp"
+            android:fontFamily="@font/kanibuk"
+            android:gravity="center"
+            android:text="기타주류"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/guasilju"
+            app:layout_constraintTop_toBottomOf="@+id/cheongju" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+

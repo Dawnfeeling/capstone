@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/chungbuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/map_chungbuk" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wolin"
+            android:text="충청북도"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chungbuk" />
+
+        <ImageView
+            android:id="@+id/cbmarker1"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.35000002"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/cbmarker2"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.46"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.68"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/cbmarker3"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/cbmarker4"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/cbmarker5"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.61"
+            app:srcCompat="@drawable/marker" />
+
+        <Button
+            android:id="@+id/cbbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="92dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="선희주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cbmarker1"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/cbbutton1_2"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="문앞에봄"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cbmarker1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbbutton1"
+            app:layout_constraintVertical_bias="0.565" />
+
+        <Button
+            android:id="@+id/cbbutton2"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="화몽"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbmarker2" />
+
+        <Button
+            android:id="@+id/cbbutton3"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="92dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="괴산 세종 찰옥수수 전통주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cbmarker3"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/cbbutton4"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="84dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="바나나주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/cbmarker4"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/cbbutton5"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="시인의마을"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cbmarker5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

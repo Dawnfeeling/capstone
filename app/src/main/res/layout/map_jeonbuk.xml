@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/jeonbuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/map_jeonbuk" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wolin"
+            android:text="전라북도"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/jeonbuk" />
+
+        <ImageView
+            android:id="@+id/jbmarker1"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.21"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.58000004"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jbmarker2"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.233"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jbmarker4"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.59000003"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jbmarker5"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.66"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jbmarker6"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/jbmarker7"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.396"
+            app:srcCompat="@drawable/marker" />
+
+        <Button
+            android:id="@+id/jbbutton1"
+            android:layout_width="241dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="68dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="고창 선운산땡큐 블루베리주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jbmarker1" />
+
+        <Button
+            android:id="@+id/jbbutton1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="꽃빛서리"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jbbutton1" />
+
+        <Button
+            android:id="@+id/jbbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="128dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="모리"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jbmarker2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/jbbutton4"
+            android:layout_width="182dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="104dp"
+            android:layout_marginBottom="204dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="참주가 서해밤바다"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jbmarker4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/jbbutton5"
+            android:layout_width="130dp"
+            android:layout_height="38dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="진안블랙"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/jbmarker5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/jbbutton6"
+            android:layout_width="145dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="60dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="이강주 25"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jbmarker6" />
+
+        <Button
+            android:id="@+id/jbbutton7"
+            android:layout_width="124dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="192dp"
+            android:layout_marginEnd="12dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="밤빛머루"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jbmarker7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

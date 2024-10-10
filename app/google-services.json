@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "907716152407",
+    "firebase_url": "https://jumac-c781b-default-rtdb.firebaseio.com",
+    "project_id": "jumac-c781b",
+    "storage_bucket": "jumac-c781b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907716152407:android:478bf9d051e79b9e5f2712",
+        "android_client_info": {
+          "package_name": "com.example.mainmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907716152407-1l3i71dchp5skimf5417n9io73lcb4n1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbmoGWEIip3ogXGew_lKB4CY9h1haAEMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907716152407-1l3i71dchp5skimf5417n9io73lcb4n1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

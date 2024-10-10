@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="718dp"
+        android:layout_weight="1" >
+
+        <ImageView
+            android:id="@+id/gyeongbuk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/map_gyeongbuk" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/wolin"
+            android:text="경상북도"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/gyeongbuk" />
+
+        <ImageView
+            android:id="@+id/gbmarker1"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.68"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker2"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.38"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker3"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.38"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.49"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker4"
+            android:layout_width="23dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.45"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.42000002"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker5"
+            android:layout_width="28dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.7"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.44"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker6"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.316"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.39999998"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker7"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.581"
+            app:srcCompat="@drawable/marker" />
+
+        <ImageView
+            android:id="@+id/gbmarker8"
+            android:layout_width="25dp"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:alpha="0.75"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65"
+            app:srcCompat="@drawable/marker" />
+
+        <Button
+            android:id="@+id/gbbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="경주교동법주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbmarker1" />
+
+        <Button
+            android:id="@+id/gbbutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="72dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="맑은 문희주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/gbmarker2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/gbbutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="156dp"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="금과명주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/gbmarker3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/gbbutton4"
+            android:layout_width="136dp"
+            android:layout_height="41dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginBottom="88dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="안동진맥소주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toTopOf="@+id/gbmarker4"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Button
+            android:id="@+id/gbbutton5"
+            android:layout_width="133dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="16dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="소월미주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbmarker5" />
+
+        <Button
+            android:id="@+id/gbbutton6"
+            android:layout_width="169dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="264dp"
+            android:layout_marginEnd="200dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="예천주 만월"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbmarker6" />
+
+        <Button
+            android:id="@+id/gbbutton7"
+            android:layout_width="83dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="196dp"
+            android:layout_marginEnd="312dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="벼리"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbmarker7" />
+
+        <Button
+            android:id="@+id/gbbutton8"
+            android:layout_width="121dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="156dp"
+            android:layout_marginEnd="168dp"
+            android:layout_weight="1"
+            android:backgroundTint="#52527A"
+            android:fontFamily="@font/wolin"
+            android:text="엄청주"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gbmarker8" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

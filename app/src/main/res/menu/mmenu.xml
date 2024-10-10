@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">>
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icon_list"
+        android:title="Category"/>
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icon_map"
+        android:title="Map"/>
+
+    <item
+        android:id="@+id/tab3"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:icon="@drawable/icon_drink"
+        android:title="Drink"/>
+</menu>
